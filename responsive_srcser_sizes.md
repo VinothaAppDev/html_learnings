@@ -74,26 +74,4 @@ Understanding this relationship will help you control which images load at what 
 
 This is why your smaller image shows at small viewport widths: the display size you set in `sizes` is small, so the browser picks a smaller source rather than a large one to save bandwidth and improve page speed.
 
-Let me know if you want examples breaking this down step-by-step![^1][^2][^4][^5]
-<span style="display:none">[^3][^6][^7][^8][^9]</span>
-
-<div align="center">⁂</div>
-
-[^1]: https://www.codeguage.com/v1/courses/html/images-the-srcset-attribute
-
-[^2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
-
-[^3]: https://www.w3schools.com/tags/att_source_srcset.asp
-
-[^4]: https://dancedric.com/blog/html-srcset-attribute-explained-how-does-it-work/
-
-[^5]: https://html.com/attributes/img-srcset/
-
-[^6]: https://stackoverflow.com/questions/19634463/what-is-the-srcset-attribute-in-an-img-tag-and-how-to-use-it
-
-[^7]: https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/art_direction/
-
-[^8]: https://whoisguilty.com/developers/responsive_images/srcset_and_sizes
-
-[^9]: https://www.youtube.com/watch?v=2QYpkrX2N48
-
+Let me know if you want examples breaking this down step-by-step!
