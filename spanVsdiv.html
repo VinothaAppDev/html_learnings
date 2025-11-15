@@ -1,0 +1,33 @@
+<!--
+The <span> tag is used to wrap individual characters or entities in HTML to make them stylable or interactive without breaking text flow. It serves as an inline container that:
+
+Enables targeted styling: You can apply CSS to a specific character (like changing color, size, or font weight) since raw characters can't be directly styled.
+
+Preserves layout: As an inline element, <span> doesn't disrupt the surrounding text, unlike block elements such as <div>.
+
+Allows interactivity: Adding an id or class makes it easy to target with JavaScript for behaviors like click events or dynamic updates.
+
+Improves clarity and accessibility: Though non-semantic, <span> can hold attributes or class names to assist tools like screen readers.
+
+In short, <span> acts as a flexible, invisible container for styling, scripting, or enhancing small pieces of inline content.
+-->
+
+<!-- example -->
+
+<p>
+    Rinse <span>&frac12;</span> cup raw rice and <span>&frac14;</span> cup moong dal together two times with water.
+</p>
+
+<!---
+Rinse ½ cup raw rice and ¼ cup moong dal together two times with water.
+-->
+
+<p>
+    Rinse <div>&frac12;</div> cup raw rice and <div>&frac14;</div> cup moong dal together two times with water.
+</p>
+
+<!---
+Rinse
+½
+cup raw rice and ¼ cup moong dal together two times with water.
+-->
