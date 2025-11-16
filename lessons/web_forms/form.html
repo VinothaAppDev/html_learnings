@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            gap: 10px;
+        }
+
+        .form_no{
+            color:brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="form_no">form 1</h1>
+    <form action="#">
+        <input name="Username">
+        <input name="Email">
+        <button>Submit</button>
+    </form>
+
+    <br><br>
+
+    <h1 class="form_no">form 2</h1>
+    <form action="#">
+        <label>Username</label><input name="Username">
+        <label>Email</label><input name="Email">
+        <button>Submit</button>
+    </form>
+
+    <br><br>
+
+    <h1 class="form_no">form 3</h1>
+    <form action="#">
+        <h2>A good scemantic form</h2>
+        <div>
+            <label>Username</label>
+            <input name="username">
+        </div>
+        <div>
+            <label>Email</label> <br>
+            <input name="Email">
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <br><br>
+
+    <h1 class="form_no">form 4</h1>
+    <form action="#">
+        <fieldset>
+            <legend>main information</legend>
+            <div>
+                <label>Username</label> <input name="Username">
+            </div>
+            <div>
+                <label>Email</label><input name="Email">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Personal information</legend>
+            <div>
+                <label>Full name</label> <input name="name">
+            </div>
+            <div>
+                <label>Age</label> <input name="Age">
+            </div>
+            <div>
+                <label>Phone number</label> <input name="Ph">
+            </div>
+        </fieldset>
+        <button>Submit</button>
+    </form>
+
+        <br><br>
+
+        <h1 class="form_no">form 5</h1>
+        <!--  the label with the "for" attribute referencing the input's "id" "username" ensures that clicking the "Username" label sets focus on the input field.  -->
+        <form action="#">
+            <h2>for attribute</h2>
+            <!-- Explicit association -->
+            <label for="username">username</label>
+            <input id="username">
+
+            <!-- we can also do the smae with the below -->
+             <!-- it is inplicit association -->
+             <label>
+                username
+                <input>
+             </label>
+        </form>
+    
+</body>
+</html>
