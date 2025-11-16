@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submitted.html">
+        <h2>Create a new Account</h2>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" required id="username" name="username" placeholder="vinotha12">
+        </div>
+        <div>
+            <!-- note the pattern attribute here ... -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="vinotha90@gmail.com" pattern="[a-zA-z0-9]+@[a-zA-Z]+\.[a-zA-Z]+" >
+        </div>
+        <div>
+            <!-- note the minlength and pattern attribute here ... -->
+             <label for="password">Password</label>
+             <input type="password" required id="password" name="password" placeholder="8 characters required" minlength="8" pattern="[a-zA-z0-9@_]">
+        </div>
+        <button title="Create an Account by clicking this after filling the details">
+            Create Account
+        </button>
+        <!-- 
+         The title attribute provides a tooltip message that appears when the mouse pointer hovers over the element.
+         we can use this title attribute whereever we wanted...
+        -->
+    </form>
+</body>
+</html>

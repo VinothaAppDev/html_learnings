@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submitted.html">
+        <h2>Create Account for the newsLetter Subscription</h2>
+        <div>
+            <label for="username">Username</label>
+            <input type="username" required id="username" name="username" placeholder="vinotha1234">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" required id="email" name="email" placeholder="vinotha12@gmail.com" pattern="[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]">
+        </div>
+        <div>
+            <label for="password">Password</label>
+             <input type="password" required id="password" name="password" placeholder="8 characters required" minlength="8" pattern="[a-zA-z0-9@_]">
+        </div>
+        <h2>Subscription details</h2>
+        <fieldset>
+            <legend>Choose your topics</legend>
+            <div>
+                <input type="checkbox" value="Coding" id="Coding">
+                <label for="Coding">Coding</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Tools" id="Tools">
+                <label for="Tools">Tools and software</label>
+            </div>
+            <div>
+                <input type="checkbox" value="productivity" id="productivity">
+                <label for="productivity">Productivity</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Timeline</legend>
+            <div>
+                <input type="radio" value="monthly" id="monthly">
+                <label for="monthly">Monthly</label>
+            </div>
+            <div>
+                <input type="radio" value="Quarterly" id="Quarterly">
+                <label for="Quarterly">Quarterly</label>
+            </div>
+            <div>
+                <input type="radio" value="yearly" id="yearly">
+                <label for="yearly">Yearly</label>
+            </div>
+        </fieldset>
+        <button>Subscribe</button>
+    </form>
+
+    <!-- 
+    the "value" attribute defines the data sent for the selected checkbox or radio button during form submission.
+    -->
+</body>
+</html>
